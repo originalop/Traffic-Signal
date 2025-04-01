@@ -8,7 +8,7 @@ const div2 = () => {
             clearInterval(count);
             div2.innerText = "";
 
-            div2.style.backgroundColor = "black";
+            div2.style.backgroundColor = "#0d0f0d";
             div1();
         }
     }, 1000);
@@ -24,7 +24,7 @@ const div3 = () => {
             clearInterval(count);
             div3.innerText = "";
 
-            div3.style.backgroundColor = "black";
+            div3.style.backgroundColor = "#0d0f0d";
             div2();
         }
     }, 1000);
